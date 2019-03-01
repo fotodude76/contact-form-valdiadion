@@ -8,7 +8,7 @@ Phone:  '.$_POST['phone'].'<br />
 Email:  '.$_POST['emailid'].'<br />
 Message:   '.$_POST['message'].'
 ';
-    require "php/PHPMailerAutoload.php"; //include phpmailer class
+    require "PHPMailerAutoload.php"; //include phpmailer class
       
     // Instantiate Class  
     $mail = new PHPMailer();  
